@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <p className="read-the-docs">
-        booking app
+        frontend booking app
       </p>
     </>
   )

@@ -1,8 +1,8 @@
 export default async function (fastify, opts) {
   fastify.get('/', async function (request, reply) {
-    return { root: true }
+    return { message: 'server' }
   })
-  fastify.get('/api', async function (request, reply) {
+  fastify.get('/app', async function (request, reply) {
     return { message: 'привет' };
   })
 }
